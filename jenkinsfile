@@ -1,11 +1,12 @@
 node
-   {
+{
     stage "1. update the system"
-     sh yum update -y
+     sh "yum update -y"
 
    stage "2. install the package"
-    sh yum install -y git
+    sh "yum install -y git"
 
    stage "3. create folder"
-    sh mkdir scripted- pipeline
+    sh "mkdir scripted-pipeline-11"
+   
 }
