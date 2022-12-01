@@ -7,6 +7,6 @@ node
     sh "yum install -y git"
 
    stage "3. create folder"
-    sh "mkdir scripted-pipeline-11"
+    sh "mkdir scripted-pipeline-14"
    
 }
